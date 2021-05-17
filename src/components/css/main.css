@@ -1,0 +1,95 @@
+.navbar {
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 4px #013b4d;
+          box-shadow: 0px 1px 4px #013b4d;
+  background-color: #003546;
+  color: #e7e6e6;
+  padding: 10px 0;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.navbar p {
+  margin-top: 10px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.books {
+  width: 50%;
+  margin: 20px auto 0;
+}
+
+.books ul {
+  width: 100%;
+  padding: 0;
+}
+
+.books ul li {
+  background-color: #013b4d;
+  list-style: none;
+  border: 1px solid #016b9c;
+  text-transform: capitalize;
+  padding: 10px;
+  margin: 10px 0 0;
+  color: #f4f4f4;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.books ul li span {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #c9c9c9;
+}
+
+.books ul li:hover {
+  text-decoration: line-through;
+}
+
+.books .no__books p {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.book__form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.book__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book__form form label {
+  margin-right: 10px;
+  color: #e7e7e7;
+}
+
+.book__form form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.book__form form input[type=submit] {
+  background-color: #06afa1;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
